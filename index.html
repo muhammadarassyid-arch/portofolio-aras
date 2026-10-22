@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101310">
+  <meta name="description" content="Portofolio pribadi Muhammad Arrasyid">
+  <title>Portofolio | Muhammad Arrasyid</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a class="logo" href="#home">PORTOFOLIO<span>.</span></a>
+      <button class="menu-btn" id="menuBtn" aria-controls="navLinks" aria-expanded="false">☰ Menu</button>
+      <nav aria-label="Navigasi utama">
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Beranda</a></li>
+          <li><a href="#about">Tentang</a></li>
+          <li><a href="#projects">Proyek</a></li>
+          <li><a href="#contact">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="container hero" id="home">
+      <div class="reveal">
+        <div class="eyebrow"><span class="dot"></span> Membangun Ide.
+Menciptakan Solusi Dan
+Terus Bertumbuh.</div>
+        <h1>Halo, saya<br><span>Muhammad Arrasyid</span></h1>
+        <p class="hero-desc">Saya mahasiswa Teknik Informatika semester 5 yang tertarik pada pengembangan website, teknologi, dan solusi digital yang bermanfaat.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#projects">Lihat Proyek ↗</a>
+          <a class="btn btn-secondary" href="#contact">Hubungi Saya</a>
+        </div>
+      </div>
+      <div class="profile-card reveal">
+        <img class="profile-image" src="profil.jpeg" alt="Foto profil Muhammad Arrasyid">
+        <div class="profile-label">
+          <h3>Muhammad Arrasyid</h3>
+          <p>Learning. Building. Growing.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="section-tag">01 / Tentang Saya</div>
+          <h2>Mengenal saya lebih dekat.</h2>
+        </div>
+        <div class="about-grid">
+          <article class="card reveal">
+            <p>Saya Muhammad Arrasyid, mahasiswa Teknik Informatika yang memiliki ketertarikan pada pengembangan website, teknologi digital, dan pemecahan masalah melalui pemrograman.
+
+Bagi saya, coding bukan sekadar menulis baris kode, tetapi proses mengubah ide menjadi sesuatu yang nyata dan bermanfaat. Saya terus mengembangkan kemampuan melalui pembelajaran, eksplorasi teknologi, dan pengerjaan berbagai proyek.
+
+Saya percaya bahwa setiap proyek adalah kesempatan untuk belajar, berkembang, dan menghasilkan karya yang lebih baik.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Teknologi yang sedang saya pelajari</h3>
+      
+            <div class="skill-list">
+              <span class="skill">JavaScript</span><span class="skill">Python</span>
+              <span class="skill">AI</span><span class="skill">IOT</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <div class="section-tag">02 / Dari ide menjadi karya</div>
+          <h2>Project yang sudah saya Kerjakan</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <img class="project-image" img src="ai smart notes.jpeg"
+            <div class="project-content">
+              <h3>AI Smart notes</h3>
+              <p>Aplikasi Catatan cerdas yang berbasis AI untuk Meringkas Catatan Panjang dan mencari poin utama dari catatan Tersebut</p>
+              <a class="project-link" href="#contact">Lihat detail ↗</a>
+            </div>
+          </article>
+          <article class="project-card reveal">
+            <img class="project-image"img src="website usaha.jpeg"
+            <div class="project-content">
+              <h3>Website Portofolio Usaha</h3>
+              <p>Website personal responsif untuk menampilkan profil, keahlian, dan hasil pekerjaan.</p>
+              <a class="project-link" href="#home">Kembali ke atas ↑</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container reveal">
+        <div class="contact-box">
+          <div class="section-tag">03 / Kontak</div>
+          <h2>Ada ide menarik?</h2>
+          <p>Mari berdiskusi, berkolaborasi, atau membangun sesuatu yang bermanfaat bersama.</p>
+          <a class="btn btn-primary" href="https://wa.me/6285756609132" target="_blank" rel="noopener noreferrer">Hubungi via WhatsApp ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Muhammad Arrasyid</span>
+    </div>
+  </footer>
+</body>
+</html>
